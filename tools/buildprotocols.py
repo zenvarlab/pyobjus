@@ -13,7 +13,7 @@ DEBUG = environ.get('PYOBJUS_DEBUG', '0') == '1'
 def dprint(*args):
     if not DEBUG:
         return
-    print args
+    print(args)
 
 
 def search_frameworks(directory):
