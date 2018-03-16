@@ -806,7 +806,7 @@ def protocol(protocol_name):
 
             @protocol('CBCentralManagerDelegate')
             def centralManagerDidUpdateState_(self, central):
-                print 'central updated!'
+                print('central updated!')
 
     And you can use the instance of Ble when you need a CBCentralManagerDelegate
     delegate.
